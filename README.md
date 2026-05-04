@@ -1,16 +1,68 @@
-# React + Vite
+# Personal Project Showcase App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a Single Page Application (SPA) built with React that allows users to view and manage a portfolio of projects. The application provides a simple and interactive interface to display projects, add new ones, and search through existing entries.
 
-Currently, two official plugins are available:
+## Features
+* Display a list of projects on the landing page
+* Add new projects dynamically using a form
+* Search and filter projects in real-time
+* Responsive layout for different screen sizes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+* React (Vite)
+* JavaScript (ES6)
+* CSS (Responsive design)
 
-## React Compiler
+## Project Structure
+src/
+  components/
+    ProjectList.jsx
+    ProjectCard.jsx
+    AddProjectForm.jsx
+    SearchBar.jsx
+  App.jsx
+  main.jsx
+  index.css
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation & Setup
+1. Clone the repository:
 
-## Expanding the ESLint configuration
+bash
+git clone git@github.com:Fidellelei/personal-project-showcase-app.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate into the project folder:
+bash
+cd personal-project-showcase-app
+
+3. Install dependencies:
+bash
+npm install
+
+4. Run the development server:
+bash
+npm run dev
+
+5. Open in browser:
+text
+http://localhost:5173/
+
+## Links
+GitHub Repository:https://github.com/Fidellelei/personal-project-showcase-app.git
+
+ Live Site (Vercel): https://personal-project-showcase-app-five.vercel.app/
+
+
+## Functionality Overview
+* Users can view preloaded projects on page load
+* Users can add a new project using the form
+* The search bar filters projects based on title input
+
+## Responsiveness
+The application uses a flexible grid layout to adapt to different screen sizes, ensuring usability on both desktop and mobile devices.
+
+## Author
+Fidelle Lelei
+
+## License
+This project is for educational purposes.
